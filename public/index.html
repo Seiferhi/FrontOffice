@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+<link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+    <!-- bootsnav_css -->
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/editor.css" />
+    <link rel="stylesheet" type="text/css" href="css/dropzone.min.css" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/reality-icon.css" />
+
+    <!-- jquery-css -->
+    <link rel="stylesheet" type="text/css" href="css/cubeportfolio.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/settings.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/range-Slider.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/search.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="icon" href="images/icon.png" />
+   
+    
+  </head>
+  <body>
+    <!--Loader-->
+    <div class="loader">
+      <div class="span">
+        <div class="location_indicator"></div>
+      </div>
+    </div>
+    <!--Loader-->
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+
+    <div class="copyright index2">
+      <div class="copyright_inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <p>
+                Copyright &copy; 2017 <span>Castle</span>. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sliderjs -->
+    <script src="https://unpkg.com/react-rangeslider/umd/rangeslider.min.js"></script>
+    <!-- pagination -->
+    <script src="https://unpkg.com/react-next-paging/dist/index.umd.min.js"></script>
+    
+    <script type="text/javascript" language="javascript">
+      function myMap() {
+        var mapCanvas = document.getElementById("single_map");
+        var myCenter = new google.maps.LatLng(51.508742, -0.12085);
+        var mapOptions = { center: myCenter, zoom: 5 };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+          position: myCenter,
+          animation: google.maps.Animation.BOUNCE,
+          icon: "images/map_marker.png"
+        });
+        marker.setMap(map);
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="http://maps.google.com/maps/api/js?sensor=true"
+    ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script src="js/gmaps.js.js"></script>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery-countTo.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.cubeportfolio.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+    <!--Achat/Location-->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery-countTo.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/bootsnav.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+
+    <script src="js/range-Slider.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/selectbox-0.2.min.js"></script>
+    <script src="js/zelect.js"></script>
+
+    <script src="js/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/revolution.extension.navigation.min.js"></script>
+    <script src="js/revolution.extension.parallax.min.js"></script>
+    <script src="js/revolution.extension.slideanims.min.js"></script>
+    <script src="js/revolution.extension.video.min.js"></script>
+    <script src="js/revolution.extension.actions.min.js"></script>
+    <script src="js/revolution.extension.kenburn.min.js"></script>
+    <script src="js/revolution.extension.migration.min.js"></script>
+
+    <script src="js/custom.js"></script>
+    <script src="js/functions.js"></script>
+
+    <script src="js/neary-by-place.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U&amp;libraries=places"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/google-map-one.js "></script>
+
+    <!--Contact-->
+
+    <script src="js/contact.js"></script>
+
+    <script src="js/editor.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/dropzone.min.js"></script>
+    <!-- <script type="text/javascript" language="javascript"></script> -->
+
+    <script type="text/javascript">
+      $("#txtEditor").Editor();
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
+  </body>
+</html>

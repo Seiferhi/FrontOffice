@@ -1,0 +1,10 @@
+input::-webkit-input-placeholder {
+  background-color: "#5753530a";
+  color: white !important;
+  font-size: "18px" !important;
+}
+textarea::-webkit-input-placeholder {
+  background-color: "#5753530a";
+  color: white !important;
+  font-size: "18px" !important;
+}

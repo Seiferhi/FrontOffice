@@ -1,0 +1,8 @@
+.achat-component {
+  align-items: center;
+}
+
+.achat-component .list-container {
+  width: 80%;
+  margin: auto;
+}
