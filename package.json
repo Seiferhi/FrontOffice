@@ -12,7 +12,7 @@
     "@syncfusion/ej2-base": "^17.2.49",
     "@syncfusion/ej2-react-richtexteditor": "^17.2.49",
     "antd": "^3.20.7",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "bootstrap-daterangepicker": "^3.0.5",
     "dialogflow": "^0.10.3",
